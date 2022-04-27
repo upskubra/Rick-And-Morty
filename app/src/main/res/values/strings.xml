@@ -5,4 +5,8 @@
     <string name="character">Character</string>
     <string name="episode">Episode</string>
     <string name="location">Location</string>
+    <string name="main">Main</string>
+    <string name="alive">Alive</string>
+    <string name="dead">Dead</string>
+    <string name="unknown">Unknown</string>
 </resources>
