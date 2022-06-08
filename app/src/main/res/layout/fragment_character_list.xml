@@ -17,52 +17,53 @@
         <com.google.android.material.chip.ChipGroup
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_marginHorizontal="2dp"
-            app:chipSpacingHorizontal="36dp">
+            app:chipSpacingHorizontal="16dp">
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/main_item_recycler"
-                android:layout_width="75dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/main"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:chipBackgroundColor="@color/my_blue"
-                app:chipCornerRadius="0dp">
+                app:chipCornerRadius="10dp">
 
             </com.google.android.material.chip.Chip>
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/alive_item_recycler"
-                android:layout_width="75dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/alive"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:chipBackgroundColor="@color/my_green"
-                app:chipCornerRadius="0dp" />
+                app:chipCornerRadius="10dp" />
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/dead_item_recycler"
-                android:layout_width="75dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/dead"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:chipBackgroundColor="@color/my_red"
-                app:chipCornerRadius="0dp">
+                app:chipCornerRadius="10dp">
 
             </com.google.android.material.chip.Chip>
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/unknown_item_recycler"
-                android:layout_width="75dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/unknown"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:chipBackgroundColor="@color/my_yellow"
-                app:chipCornerRadius="0dp">
+                app:chipCornerRadius="10dp">
 
             </com.google.android.material.chip.Chip>
         </com.google.android.material.chip.ChipGroup>
