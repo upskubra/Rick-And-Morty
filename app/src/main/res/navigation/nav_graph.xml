@@ -8,17 +8,17 @@
 
     <fragment
         android:id="@+id/characterListFragment"
-        android:name="com.example.rick_and_morty.CharacterListFragment"
+        android:name="com.example.rick_and_morty.ui.CharacterListFragment"
         android:label="@string/character"
         tools:layout="@layout/fragment_character_list" />
     <fragment
         android:id="@+id/episodeListFragment"
-        android:name="com.example.rick_and_morty.EpisodeListFragment"
+        android:name="com.example.rick_and_morty.ui.EpisodeListFragment"
         android:label="@string/episode"
         tools:layout="@layout/fragment_episode_list" />
     <fragment
         android:id="@+id/locationListFragment"
-        android:name="com.example.rick_and_morty.LocationListFragment"
+        android:name="com.example.rick_and_morty.ui.LocationListFragment"
         android:label="@string/location"
         tools:layout="@layout/fragment_location_list" />
 </navigation>

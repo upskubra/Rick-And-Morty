@@ -1,10 +1,11 @@
-package com.example.rick_and_morty
+package com.example.rick_and_morty.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.rick_and_morty.R
 
 
 class CharacterListFragment : Fragment() {

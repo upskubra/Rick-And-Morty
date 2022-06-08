@@ -1,16 +1,16 @@
-package com.example.rick_and_morty
+package com.example.rick_and_morty.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.rick_and_morty.R
 
-class EpisodeListFragment : Fragment() {
+class LocationListFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -18,6 +18,6 @@ class EpisodeListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_episode_list, container, false)
+        return inflater.inflate(R.layout.fragment_location_list, container, false)
     }
 }

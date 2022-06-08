@@ -1,4 +1,4 @@
-package com.example.rick_and_morty
+package com.example.rick_and_morty.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.rick_and_morty.R
 import com.example.rick_and_morty.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
